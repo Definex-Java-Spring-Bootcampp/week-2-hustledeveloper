@@ -105,6 +105,7 @@ Dezavantajları:
 Yüksek kaynak kullanımı: Her VM kendi işletim sistemine sahip olduğundan, fiziksel donanım kaynaklarını daha fazla tüketir.
 Yavaş başlangıç: Bir VM, fiziksel bir makineden daha yavaş başlatılır.
 Karmaşık yönetim: Birden fazla VM'yi yönetmek karmaşık olabilir.
+
 Docker:
 
 Tanım: Docker, konteyner adı verilen uygulamaları çalıştırmak için hafif ve taşınabilir bir sanallaştırma teknolojisidir.
@@ -225,6 +226,7 @@ Bir konteynerin günlüklerini gösterir.
  </summary>
 
 Microservice ve Monolith Mimarilerinin Karşılaştırması
+
 Microservice Mimari:
 
 Tanım: Bir uygulamayı, her biri kendi özel işlevini yerine getiren küçük, bağımsız hizmetlerden oluşan bir koleksiyona bölen bir mimari stildir.
@@ -237,6 +239,7 @@ Dezavantajları:
 Karmaşıklık: Birden fazla hizmetin yönetilmesi ve koordine edilmesi karmaşık olabilir.
 Ağ trafiği: Hizmetler arasında iletişim kurmak için daha fazla ağ trafiği gerekir.
 Güvenlik: Her hizmetin güvenliğini ayrı ayrı yönetmek gerekir.
+
 Monolith Mimari:
 
 Tanım: Tüm uygulama işlevselliğini tek bir büyük birimde birleştiren bir mimari stildir.
@@ -268,6 +271,7 @@ Yük devretme: Farklı hizmetlere yükü dengeleyebilirsiniz.
 Dezavantajları:
 Karmaşıklık: Ek bir karmaşıklık katmanı ekleyebilir.
 Tek hata noktası: API Gateway arızalanırsa tüm API'ler etkilenir.
+
 Service Discovery:
 
 Tanım: Bir ağdaki hizmetlerin konumunu ve özelliklerini otomatik olarak bulma ve kaydetme işlemidir.
@@ -278,6 +282,7 @@ Yük devretme: Farklı hizmetlere yükü dengeleyebilirsiniz.
 Dezavantajları:
 Karmaşıklık: Ek bir karmaşıklık katmanı ekleyebilir.
 Bağımlılık: Service Discovery'nin arızalanması tüm hizmetleri etkileyebilir.
+
 Load Balancer:
 
 Tanım: Birden fazla sunucuya gelen trafiği dağıtarak tek bir sunucunun aşırı yüklenmesini önleyen bir sistemdir.
